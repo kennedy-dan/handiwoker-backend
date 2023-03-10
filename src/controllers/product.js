@@ -1,6 +1,5 @@
 const Product = require("../model/product");
 const slugify = require("slugify");
-// const Category = require("../model/category");
 const cloudinary = require("cloudinary");
 
 cloudinary.config({
